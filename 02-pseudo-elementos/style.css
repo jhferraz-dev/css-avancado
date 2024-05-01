@@ -1,0 +1,24 @@
+p::first-letter{
+    color: aqua;
+}
+
+.paragrafo::first-line{
+    color: aquamarine;
+}
+
+li::marker{
+    color: red;
+    font-size: 40px;
+}
+
+.antes::before{
+    content: url(./images/logo.png);
+}
+
+.depois::after{
+    content: "";
+    background: url(./images/logo1.png) center center no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}

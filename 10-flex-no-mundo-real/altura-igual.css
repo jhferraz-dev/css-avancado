@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    width: 860px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.flex img{
+    width: 100%;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 250px;
+    margin: 1em;
+}
+
+.botao{
+    align-self: flex-start;
+    margin-top: auto;
+}
